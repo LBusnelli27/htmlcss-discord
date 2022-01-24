@@ -75,6 +75,10 @@ header {
     vertical-align: sub;
 }
 
+.nav ul li:hover {
+    border-bottom: 2px solid #8ea1e1;
+}
+
 .button {
     padding: 10px 20px;
     border-style: none;
