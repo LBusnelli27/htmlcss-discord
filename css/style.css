@@ -12,10 +12,13 @@
     clear: both;
 }
 
+/* Float left */
 .float-left {
     float: left;
 }
 
+
+/* Font Implementation */
 * {
     font-family: 'Whitney', sans-serif;
     font-family: 'Whitney Semibold', sans-serif;
@@ -25,7 +28,6 @@
 
 
 /* HEADER */
-
 header {
     background-image: url(../img/jumbo.png);
     background-size:contain;
@@ -33,10 +35,12 @@ header {
     height: 80vh;
 }
 
+/* Per centrare il contenuto */
 .margin-center {
     margin: 0 auto;
 }
 
+/* Per dare una with fissa a quello che si vuole */
 .width-content {
     width: 70%;
 }
@@ -45,14 +49,17 @@ header {
     display: inline-block;
 }
 
+/* Text Color White */
 .color-white {
     color: #ffffff;
 }
 
+/* Text Color Gray */
 .color-gray {
     color: #23272a;
 }
 
+/* Text Color Violet */
 .color-violet {
     color: #8ea1e1;
 }
@@ -64,6 +71,7 @@ header {
     margin-bottom: 7%;
 }
 
+/* Per Spaziare a dx e sx della Nav */
 .nav {
     margin: 0 25%;
 }
@@ -75,6 +83,7 @@ header {
     vertical-align: sub;
 }
 
+/* Hover Nav */
 .nav ul li:hover {
     border-bottom: 2px solid #8ea1e1;
 }
@@ -101,16 +110,19 @@ header {
 
 /* JUMBOTRON */
 
+/* Standard H1 */
 h1 {
     font-size: 3rem;
     word-spacing: 3px;
 }
 
+/* Standard H2 */
 h2 {
     font-size: 2rem;
     word-spacing: 3px;
 }
 
+/* Standard P */
 p {
     font-size: 1.2rem;
     word-spacing: 3px;
@@ -128,6 +140,7 @@ p {
     margin: 50px 0px 40px 0px;
 }
 
+/* Per i Bottoni Grandi */
 .button-big {
     font-size: 1.2rem;
     border-radius: 30px;
@@ -171,11 +184,16 @@ p {
     margin: 0;
 }
 
+.h1-contact {
+    margin-bottom: 30px;
+}
 
+/* Per Mettere Le Immagine Grandi */
 .img-big {
     width: 100%;
 }
 
+/* Section Sotto Big Image */
 .section-adventure {
     width: 30%;
     margin-bottom: 200px;
@@ -187,7 +205,9 @@ p {
     margin-bottom: 50px;
 }
 
-/* colore scritte footer  #7289da */
+
+
+/* FOOTER */
 
 footer {
     padding: 50px 0;
@@ -197,6 +217,7 @@ footer div {
     vertical-align: top;
 }
 
+/* Bandiera */
 .flag-footer {
     width: 20px;
     margin-right: 5px;
@@ -215,11 +236,13 @@ footer div {
     margin-bottom: 15px;
 }
 
+/* Icone Nel Footer */
 .footer-social {
     letter-spacing: 25px;
     font-size: 1.2rem;
 }
 
+/* Lista nel Footer */
 .list-footer {
     margin-left: 10%;
 }
@@ -235,6 +258,7 @@ footer div {
     margin-bottom: 10px;
 }
 
+/* Section con Logo e Button Registrati */
 .section-footer-list {
     border-bottom: 1px solid #8ea1e1;
     padding-bottom: 30px;
