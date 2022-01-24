@@ -233,4 +233,9 @@ footer div {
 .section-footer-list {
     border-bottom: 1px solid #8ea1e1;
     padding-bottom: 30px;
+    margin-bottom: 30px;
+}
+
+.bottom-section-footer button{
+    float: right;
 }
