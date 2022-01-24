@@ -85,6 +85,10 @@ header {
     background-color: #23272a;
 }
 
+.button-violet {
+    background-color: #8ea1e1;
+}
+
 
 
 /* JUMBOTRON */
@@ -119,7 +123,7 @@ p {
 }
 
 .button-big span {
-    padding-left: 10px;
+    padding-left: 15px;
 }
 
 
@@ -158,3 +162,17 @@ p {
 .img-big {
     width: 100%;
 }
+
+.section-adventure {
+    width: 30%;
+    margin-bottom: 200px;
+}
+
+.section-adventure h2 {
+    background-image: url(../img/stars.svg);
+    background-size: contain;
+    font-size: 2rem;
+    margin-bottom: 50px;
+}
+
+/* colore scritte footer  #7289da */
