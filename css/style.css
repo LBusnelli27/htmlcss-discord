@@ -53,6 +53,10 @@ header {
     color: #23272a;
 }
 
+.color-violet {
+    color: #8ea1e1;
+}
+
 .navbar-header {
     padding: 30px 0px;
     text-align: center;
@@ -95,6 +99,11 @@ header {
 
 h1 {
     font-size: 3rem;
+    word-spacing: 3px;
+}
+
+h2 {
+    font-size: 2rem;
     word-spacing: 3px;
 }
 
@@ -171,7 +180,6 @@ p {
 .section-adventure h2 {
     background-image: url(../img/stars.svg);
     background-size: contain;
-    font-size: 2rem;
     margin-bottom: 50px;
 }
 
@@ -179,4 +187,26 @@ p {
 
 footer {
     padding: 50px 0;
+}
+
+.flag-footer {
+    width: 20px;
+    margin-right: 5px;
+}
+
+.footer-il-tuo-posto h2 {
+    margin-bottom: 20px;
+}
+
+.footer-il-tuo-posto .fas {
+    margin-left: 5px;
+}
+
+.footer-il-tuo-posto span {
+    display: block;
+    margin-bottom: 15px;
+}
+
+.footer-social {
+    letter-spacing: 20px;
 }
