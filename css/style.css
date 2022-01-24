@@ -77,15 +77,15 @@ header {
     border-radius: 17px;
 }
 
-.button-white {
+.bg-white {
     background-color: #ffffff;
 }
 
-.button-gray {
+.bg-gray {
     background-color: #23272a;
 }
 
-.button-violet {
+.bg-violet {
     background-color: #8ea1e1;
 }
 
@@ -176,3 +176,7 @@ p {
 }
 
 /* colore scritte footer  #7289da */
+
+footer {
+    padding: 50px 0;
+}
