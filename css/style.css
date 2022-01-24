@@ -189,6 +189,10 @@ footer {
     padding: 50px 0;
 }
 
+footer div {
+    vertical-align: top;
+}
+
 .flag-footer {
     width: 20px;
     margin-right: 5px;
@@ -209,4 +213,24 @@ footer {
 
 .footer-social {
     letter-spacing: 20px;
+}
+
+.list-footer {
+    margin-left: 10%;
+}
+
+.list-footer ul {
+    margin-left: 130px;
+    display: inline-block;
+    vertical-align: top;
+}
+
+.list-footer li {
+    list-style: none;
+    margin-bottom: 10px;
+}
+
+.section-footer-list {
+    border-bottom: 1px solid #8ea1e1;
+    padding-bottom: 30px;
 }
