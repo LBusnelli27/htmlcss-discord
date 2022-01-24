@@ -99,8 +99,11 @@ p {
     word-spacing: 3px;
 }
 
+.text-align-center {
+    text-align: center
+}
+
 .jumbotron {
-    text-align: center;
     width: 35%;
 }
 
@@ -149,4 +152,9 @@ p {
 
 .text-left img {
     margin: 0;
+}
+
+
+.img-big {
+    width: 100%;
 }
