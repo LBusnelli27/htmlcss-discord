@@ -12,6 +12,10 @@
     clear: both;
 }
 
+.float-left {
+    float: left;
+}
+
 * {
     font-family: 'Whitney', sans-serif;
     font-family: 'Whitney Semibold', sans-serif;
@@ -20,9 +24,13 @@
 }
 
 
+/* HEADER */
+
 header {
     background-image: url(../img/jumbo.png);
-    height: 1100px;
+    background-size:contain;
+    background-repeat: no-repeat;
+    height: 80vh;
 }
 
 .margin-center {
@@ -49,7 +57,7 @@ header {
     padding: 30px 0px;
     text-align: center;
     font-size: 1.1rem;
-    margin-bottom: 10%;
+    margin-bottom: 7%;
 }
 
 .nav {
@@ -109,4 +117,36 @@ p {
 
 .button-big span {
     padding-left: 10px;
+}
+
+
+
+/* MAIN */
+
+.main-photo-desc {
+    margin-top: 150px;
+    height: 80vh;
+}
+
+.main-photo-desc img {
+    display: inline;
+    margin-right: 10%;
+    width: 60%;
+}
+
+.main-photo-desc div {
+    width: calc(100% -  (60% + 10%));
+}
+
+.main-photo-desc div p {
+    margin-top: 30px;
+}
+
+/* Per quelle section che hanno il testo a sx */
+.text-left div {
+    margin-right: 10%;
+}
+
+.text-left img {
+    margin: 0;
 }
