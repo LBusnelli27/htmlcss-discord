@@ -12,3 +12,82 @@
     clear: both;
 }
 
+* {
+    font-family: 'Whitney', sans-serif;
+    font-family: 'Whitney Semibold', sans-serif;
+    font-family: 'Whitney Book', sans-serif;
+    font-family: 'Whitney Light', sans-serif;
+}
+
+
+header {
+    background-image: url(../img/jumbo.png);
+    height: 1100px;
+}
+
+.margin-center {
+    margin: 0 auto;
+}
+
+.width-content {
+    width: 80%;
+}
+
+.display-inline-block {
+    display: inline-block;
+}
+
+.color-white {
+    color: #ffffff;
+}
+
+.color-gray {
+    color: #23272a;
+}
+
+.navbar-header {
+    padding: 30px 0px;
+    text-align: center;
+    font-size: 1.1rem;
+    margin-bottom: 10%;
+}
+
+.nav {
+    margin: 0 30%;
+}
+
+.nav ul li {
+    display: inline;
+    list-style: none;
+    margin: 0 20px;
+    vertical-align: sub;
+}
+
+.button {
+    padding: 10px 20px;
+    border-style: none;
+    border-radius: 17px;
+}
+
+.login {
+    background: #ffffff;
+}
+
+/* JUMBOTRON */
+
+h1 {
+    font-size: 3rem;
+}
+
+p {
+    font-size: 1.2rem;
+}
+
+.jumbotron {
+    text-align: center;
+    width: 40%;
+}
+
+.jumbotron p {
+    margin-top: 40px;
+}
