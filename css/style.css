@@ -216,7 +216,8 @@ footer div {
 }
 
 .footer-social {
-    letter-spacing: 20px;
+    letter-spacing: 25px;
+    font-size: 1.2rem;
 }
 
 .list-footer {
