@@ -165,6 +165,7 @@ p {
     display: inline;
     margin-right: 10%;
     width: 60%;
+    padding: 1.5rem;
 }
 
 .main-photo-desc div {
@@ -201,6 +202,10 @@ p {
 .section-adventure {
     width: 30%;
     margin-bottom: 200px;
+}
+
+.section-full p {
+    width: 50%;
 }
 
 .section-adventure h2 {
