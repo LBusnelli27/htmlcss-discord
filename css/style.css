@@ -175,6 +175,10 @@ p {
     margin-top: 30px;
 }
 
+.text-desc-main {
+    padding-top: 4rem;
+}
+
 /* Per quelle section che hanno il testo a sx */
 .text-left div {
     margin-right: 10%;
