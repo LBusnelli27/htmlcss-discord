@@ -138,6 +138,7 @@ p {
 
 .jumbotron p {
     margin: 50px 0px 40px 0px;
+    line-height: 2rem;
 }
 
 /* Per i Bottoni Grandi */
@@ -174,6 +175,7 @@ p {
 
 .main-photo-desc div p {
     margin-top: 30px;
+    line-height: 1.7rem;
 }
 
 .text-desc-main {
@@ -206,6 +208,7 @@ p {
 
 .section-full p {
     width: 50%;
+    line-height: 1.7rem;
 }
 
 .section-adventure h2 {
