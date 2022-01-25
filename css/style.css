@@ -213,8 +213,9 @@ p {
 
 .section-adventure h2 {
     background-image: url(../img/stars.svg);
-    background-size: contain;
+    background-repeat: no-repeat;
     margin-bottom: 50px;
+    padding: 2rem 1rem 1rem 1rem;
 }
 
 
